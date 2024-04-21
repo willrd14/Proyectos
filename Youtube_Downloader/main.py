@@ -1,6 +1,5 @@
 from pytube import YouTube
 from progress.bar import Bar, ChargingBar
-import os, time, random
 
 yt = YouTube(input("Ingresa el url del video que desee descargar: "))
 print("Procesando su video...")
